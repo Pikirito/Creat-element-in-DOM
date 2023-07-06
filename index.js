@@ -17,7 +17,6 @@ card.appendChild(container_describle);
 
 const text = document.createElement("p");
 text.id = "p_text";
-
 text.innerText = "Funcionario em treinamento";
 
 container_describle.appendChild(text);
