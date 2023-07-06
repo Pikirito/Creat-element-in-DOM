@@ -1,0 +1,52 @@
+body {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#div_card {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+#div_photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+#div_photo::after {
+    content: "Name_Func";
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#div_describle {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#p_text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+}
